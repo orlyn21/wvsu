@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url('img2.jpg') no-repeat center center/cover;
+    color: #333;
+}
+
+header {
+    color: whitesmoke;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: black;
+}
+
+header .logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+header .university-info {
+    margin-top: 10px;
+}
+
+header .university-info h1 {
+    font-size: 35px;
+}
+
+header .university-info p {
+    font-size: 23px;
+}
+
+.content {
+    margin: 0;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+section {
+    width: 45%;
+    margin: 10px;
+    padding: 15px;
+    background: #e9f5e9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+section h2 {
+    color: #4c82af;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.content2 {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 8px;
+    background: rgb(218, 238, 255);
+}
+
+.course {
+    text-align: center;
+    padding-left: 100px;
+}
+
+.contact {
+    font-size: 18px;
+    padding: 10px;
+    padding-right: 50px;
+}
+
+footer {
+    background: rgb(114, 180, 255);
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+}
+
+@media (min-width: 600px) {
+    .title {
+        font-size: 50px;
+        margin-left: 100px;
+    }
+    .search-bar input {
+        width: 400px;
+    }
+    .weather {
+        padding: 30px 15px;
+    }
+    .temp-info h1 {
+        font-size: 80px;
+        margin-left: 50px;
+    }
+    .weekly-weather {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
